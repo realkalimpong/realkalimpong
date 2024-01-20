@@ -59,6 +59,14 @@ ul{
     background-size: cover;
 }
 
+.contact p{
+    position: relative;
+    color: #298903;
+    width: 100%;
+    background: #000000a1;
+    padding:20px 10vw;
+}
+
 /*for mobile*/
 @media screen and (max-width: 1001px) {
     .container{
@@ -98,7 +106,6 @@ ul{
         top: 16vh;
         left: 200px;
         overflow: visible;
-        z-index: 1;
     }
 
     .imageHolder p{
@@ -137,7 +144,6 @@ ul{
     }
 
     .eframe{
-        width: 100%;
     padding: 10px 0 0 0;
     display: flex;
     flex-wrap: wrap;
@@ -254,11 +260,9 @@ ul{
 }
 
 .contact p{
-    color: #000000;
     position: absolute;
-    font-size: 1vh;
+    font-size: 12px;
     top: 17vh;
-    padding: 0px 10vw;
     font-weight: 800;
     text-align: justify;
     width: 80%;
@@ -267,7 +271,7 @@ ul{
 .con{
     position: relative;
     display: block;
-    top: 118px;
+    top: 114px;
     z-index: 1;
 }
 
@@ -281,7 +285,7 @@ ul{
 
 .tel a{
     text-decoration: none;
-    color: #000000;
+    color: #06956f;
 }
 .tel h2{
     font-size: 12px;
@@ -298,7 +302,7 @@ ul{
 
 .whatsapp a{
     text-decoration: none;
-    color: #000000;
+    color: #06956f;
 }
 .whatsapp h2{
     font-size: 12px;
@@ -450,6 +454,106 @@ ul{
      width: 300px;
 }
    }
+
+   /*mobile below 600px*/
+@media screen and (max-width: 600px){
+    .itemcontain{
+        width: 90%;
+        
+    }
+
+    .item img {
+        left: 80px;
+    }
+
+    .item p{
+        width:250px;
+        padding-left: 70px;
+    }
+
+    ul{
+        margin-right:20px;
+    }
+
+    .land a{
+        font-size: 10px;
+    }
+
+    .btnland{
+        bottom: 130px;
+    }
+
+    .contact p{
+        top: 98px;
+        
+    }
+    
+    .con{
+        top: 130px;
+    }
+
+    .imageHolder p{
+        top:130px;
+        font-size: 14px;
+    }
+}
+
+/*for mobile size 380px*/
+
+@media screen and (max-width: 365px){
+    .itemcontain{
+        width: 90%;
+        
+    }
+
+    .item img {
+        left: 29px;
+    }
+
+    .item p{
+        width:250px;
+        padding-left: 18px;
+    }
+
+    ul{
+        margin-right:20px;
+    }
+
+    .land a{
+        font-size: 10px;
+    }
+
+    .btnland{
+        bottom: 130px;
+    }
+
+    .contact p{
+        top: 98px;
+        
+    }
+    
+    .con{
+        top: 220px;
+    }
+
+    .imageHolder p{
+        top:158px;
+        font-size: 13px;
+    }
+
+    .eframe h3{
+        margin-left: 25%;
+    }
+    
+    .eframe p{
+        padding-left: 90px;
+    }
+    
+    
+    .eframe svg{
+        margin-left: 55%;
+    }
+}
 
 
 /*for desktop*/
@@ -871,3 +975,4 @@ font-weight: 900;
     border: none;
     border-radius: 5px;
 }
+
