@@ -977,6 +977,7 @@ font-weight: 900;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+    z-index:1;
 }
 
 /* Styles for the close button */
