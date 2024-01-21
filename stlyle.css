@@ -134,6 +134,11 @@ ul{
         font-size: 12px;
     }
 
+    #mylist li:hover {
+        width:100%;
+        color: #2b5003;
+    }
+
     #myList a:active{
         color: #705d05;
         font-size: 12px;
