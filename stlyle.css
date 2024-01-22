@@ -985,11 +985,11 @@ font-weight: 900;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 999;
-    width: 100%;
     background: rgba(148, 146, 84, 0.945);
 }
 
     .cookie-popup p{
         width: fit-content;
+        text-align: center;
 }
 
