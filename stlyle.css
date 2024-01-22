@@ -572,6 +572,9 @@ ul{
     .about img{
         width:98%;
     }
+
+    .cookie-popup p{
+        width: fit-content;
 }
 
 
@@ -982,5 +985,6 @@ font-weight: 900;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 999;
+    width: 100%;
 }
 
