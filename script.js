@@ -1,20 +1,29 @@
-// Function to show the modal
-function showModal() {
-    document.getElementById('overlay').style.display = 'flex';
-}
+// script.js
+document.addEventListener("DOMContentLoaded", function() {
+    const cookiePopup = document.getElementById("cookie-popup");
+    const acceptBtn = document.getElementById("accept-cookies");
+    const rejectBtn = document.getElementById("reject-cookies");
 
-// Function to hide the modal
-function hideModal() {
-    document.getElementById('overlay').style.display = 'none';
-}
+    // Check if user has already accepted cookies
+    if (!localStorage.getItem("cookieAccepted")) {
+        // Display the cookie policy pop-up
+        cookiePopup.style.display = "block";
+    }
 
-// Show the modal on page load
-window.onload = function() {
-    showModal();
-};
+    // Event listener for accepting cookies
+    acceptBtn.addEventListener("click", function() {
+        // Save user preference
+        localStorage.setItem("cookieAccepted", true);
+        // Hide the pop-up
+        cookiePopup.style.display = "none";
+    });
 
-// Attach click event to the close button
-document.getElementById('closeButton').addEventListener('click', function() {
-    hideModal();
+    // Event listener for rejecting cookies
+    rejectBtn.addEventListener("click", function() {
+        // Handle rejection logic (e.g., redirect to a privacy page)
+        // For simplicity, you can just hide the pop-up
+        cookiePopup.style.display = "none";
+    });
 });
+
 
