@@ -989,3 +989,7 @@ font-weight: 900;
     background: rgba(148, 146, 84, 0.945);
 }
 
+    .cookie-popup p{
+        width: fit-content;
+}
+
