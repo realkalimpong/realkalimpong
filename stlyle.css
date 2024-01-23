@@ -829,6 +829,7 @@ font-weight: 900;
     padding:0 15px;
     color: #9af053;
     overflow: scroll;
+    height: 250px;
 }
 
 .item button{
