@@ -576,7 +576,7 @@ ul{
     .cookie-popup p{
         width: fit-content;
 }
-
+}
 
 /*for desktop*/
 @media screen and (min-width: 1000px) {
