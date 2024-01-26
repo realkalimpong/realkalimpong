@@ -318,6 +318,7 @@ ul{
     width: 100%;
     top: 112px;
     margin:0;
+    padding-top: 30px;
 }
 
 .itemcontain{
@@ -326,7 +327,7 @@ ul{
     align-items: center;
     width: 90%;
     margin: 0 20px;
-    padding-top: 30px;
+    
 }
 
 .item{
