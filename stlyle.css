@@ -97,13 +97,14 @@ ul{
         width: 100%;
         margin: 0%;
         overflow:hidden;
+        padding-top: 80px;
     }
 
     .imageHolder img{
         height:70vh;
         width: auto;
         position: absolute;
-        top: 16vh;
+        top: 27vh;
         left: 200px;
         overflow: visible;
     }
@@ -501,11 +502,43 @@ ul{
         top:130px;
         font-size: 14px;
     }
+     .services {
+        position: fixed;
+        display: block;
+        top: 110px;
+        z-index: 3;
+        background-color: #585050;
+        width: 100%;
+    }
+    
+    .services p{
+     display: inline-block;
+     margin: 10px 15px;
+     text-align: center;
+     color: white;
+     font-size: 1.5vh;
+    }
+    
+    .services button{
+        position: relative;
+        display: inline-block;
+        margin: 2px 107px;
+        font-size: 1.4vh;
+    }
 }
+
 
 /*for mobile size 380px*/
 
 @media screen and (max-width: 365px){
+    .imageHolder{
+        padding-top: 10px;
+    }
+
+    .imageHolder img{
+        top: 32vh;
+    }
+    
     .itemcontain{
         width: 90%;
         
@@ -596,10 +629,10 @@ ul{
         }
 
         .imageHolder img{
-            height:80vh;
+            height:75vh;
             width: auto;
             position: absolute;
-            top: 10vh;
+            top: 15vh;
             left: 250px;
         }
 
@@ -931,6 +964,26 @@ font-weight: 900;
      top: 170px;
      left: 280px;
 }
+
+.services {
+    position: fixed;
+    display: block;
+    top: 68px;
+    z-index: 3;
+    background-color: #585050;
+    width: 100%;
+}
+
+.services p{
+ display: inline-block;
+ margin-left: 100px;
+ color: white;
+}
+
+.services button{
+    display: inline-block;
+    margin-left: 20px;
+}    
 }
 
 /*desktop*/
@@ -994,5 +1047,10 @@ font-weight: 900;
     .cookie-popup p{
         width: fit-content;
         text-align: center;
+}
+
+.services button:hover{
+    background-color: #0b2302;
+    color: white;
 }
 
