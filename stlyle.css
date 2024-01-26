@@ -505,7 +505,7 @@ ul{
      .services {
         position: fixed;
         display: block;
-        top: 100px;
+        top: 95px;
         z-index: 3;
         background-color: #585050;
         width: 100%;
