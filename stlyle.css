@@ -467,7 +467,7 @@ ul{
 @media screen and (max-width: 600px){
     .itemcontain{
         width: 90%;
-        padding-top:15px;
+        padding-top:20px;
     }
 
     .item img {
