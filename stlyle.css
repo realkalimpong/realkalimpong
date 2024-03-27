@@ -166,6 +166,7 @@ ul{
     } 
       
     .carousel-item .slide-image { 
+        margin-top: 4vh;
         width: 250px; 
         height: 150px; 
         background-size:contain; 
