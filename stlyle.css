@@ -673,9 +673,10 @@ ul{
         
     }
      .services {
+         padding: 15px 0 8px 0;
         position: fixed;
         display: block;
-        top: 135px;
+        top: 127px;
         z-index: 3;
         background-color: #585050;
         width: 100%;
@@ -686,14 +687,14 @@ ul{
      margin: 10px 15px;
      text-align: center;
      color: white;
-     font-size: 1.5vh;
+     font-size: 1.3vh;
     }
     
     .services button{
         position: relative;
         display: inline-block;
-        margin: 2px 107px;
-        font-size: 1.4vh;
+        margin: 1px 107px;
+        font-size: 1.1vh;
     }
     .eframe{
         padding-top: 20vh;
